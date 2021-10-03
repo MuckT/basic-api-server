@@ -1,0 +1,33 @@
+{
+  "name": "basic-api-server",
+  "version": "1.0.0",
+  "description": "Code Fellows 401 JavaScript Lab 3",
+  "main": "index.js",
+  "scripts": {
+    "init": "sequelize db:create",
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development node index.js",
+    "test": "NODE_ENV=test jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuckT/basic-api-server.git"
+  },
+  "author": "MuckT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MuckT/basic-api-server/issues"
+  },
+  "homepage": "https://github.com/MuckT/basic-api-server#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "jest": "^27.2.4",
+    "sequelize": "^6.6.5",
+    "supertest": "^6.1.6",
+    "sqlite3": "blubaustin/node-sqlite3"
+  }
+}
