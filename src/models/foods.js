@@ -9,6 +9,10 @@ const Foods = (sequelize, DataTypes) => sequelize.define('Food', {
   price: {
     type: DataTypes.FLOAT,
     allowNull: false
+  },
+  inStock: {
+    type: DataTypes.BOOLEAN,
+    allowNull: false
   }
 })
 
