@@ -15,9 +15,6 @@ module.exports = {
     dialect: 'sqlite:memory:'
   },
   production: {
-    username: process.env.PROD_DB_USERNAME,
-    password: process.env.PROD_DB_PASSWORD,
-    database: process.env.PROD_DB_NAME,
     dialect: 'postgres',
     dialectOptions: {
       ssl: {
