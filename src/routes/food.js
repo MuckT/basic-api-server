@@ -35,7 +35,7 @@ async function updateFood(req, res) {
   const id = ~~req.params.id
   const foodData = req.body
   let food = await Food.findOne({where:{id:id}})
-  let updatedFood = await Food.update(foodData)
+  let updatedFood = await food.update(foodData)
   res.status(200).json(updatedFood)
 }
 
