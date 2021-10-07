@@ -31,3 +31,7 @@ npm run dev
 # Testing the server & database with jest
 npm test
 ```
+
+## Web Request Response Cycle Diagram
+
+![Web Request Response Cycle Diagram](./Web_Request_Response_Cycle_Diagram.jpg)
